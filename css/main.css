@@ -16,6 +16,41 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+ a{
+   text-decoration: none;
+   color: #44566c;
+ }
+ figure{
+   margin: 0;
+ }
+
+/* CSS du header */
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+   
+}
+nav{
+  width: 60%;
+}
+li{
+  list-style: none;
+  font-size: 2em;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* image du haut */
+#phototop img{
+  height: 300px;
+  width: 100%;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
