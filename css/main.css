@@ -60,6 +60,7 @@ ul{
   font-size: 1.2em;
 }
 #cvtop p{
+  max-width: 30%;
   font-size: 4em;
   line-height: 0.1em;
 }
@@ -72,8 +73,10 @@ ul{
   border-radius: 8px;
   box-shadow: 5px 5px 5px #222;
 }
-
-.resosocio img{
+.resosocio a:hover img{
+  background-color: #fac564;
+}
+.resosocio img {
   height: 40px;
   width: 40px;
   background-color: #FEE5B5;
@@ -100,11 +103,12 @@ ul{
   border-radius: 8px;
 }
 #monprojet article{
+  max-height: 100%;
   max-width: 30%;
   color: #fff;
 }
 #monprojet p{
-  width: 80%;
+  width: 100%;
   
 }
 #monprojet h1{
