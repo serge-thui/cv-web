@@ -23,7 +23,7 @@ html {
  a:hover{
    color: #ccc;
  }
- figure{
+ figure, ul{
    margin: 0;
  }
 
@@ -81,6 +81,7 @@ ul{
   width: 40px;
   background-color: #FEE5B5;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 /*css de monprojet*/
@@ -113,6 +114,17 @@ ul{
 }
 #monprojet h1{
   color: #fff;
+}
+
+/* CSS de la section mes compétences*/
+#mescompetences{
+  height: 400px;
+  background-color: #1C6868;
+}
+#mescompetences img{
+  height: 100px;
+  width: 100px;
+  
 }
 
 
