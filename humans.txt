@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <name> Serge <role> développement du cv-web <twitter>
 
 # THANKS
 
