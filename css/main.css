@@ -131,6 +131,7 @@ ul{
 #mescompetences img{
   height: 100px;
   width: 100px; 
+  border-radius: 8px;
 }
 #mescompetences ul{
   display: grid;
