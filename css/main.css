@@ -187,11 +187,11 @@ figcaption{
 
 /*css section formations*/
 #formations{
-  height: 500px;
+  height: 600px;
   background-color: #1C6868;
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  justify-content: center;
 }
 #formations h1{
   width: 100%;
@@ -204,14 +204,17 @@ figcaption{
 .container{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
- 
+  max-width: 100%;
 }
+.slider{
+  display: flex;
+  justify-content: center;
+}
+
 .slider img{
-  max-width: 80%;
+  max-width: 60%;
   display: none;
 }
 img.active{
@@ -227,8 +230,11 @@ img.active{
   }
 } 
 .btn-nav-left img,.btn-nav-right img{
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 75px;
+  max-width: 75px;
+  cursor: pointer;
+  background-color: #1C6868;
+  
 }
 
 /*
