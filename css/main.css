@@ -38,6 +38,9 @@ header{
 nav{
   width: 60%;
 }
+h1{
+  color: #fff;
+}
 li{
   list-style: none;
   font-size: 1.5em;
@@ -182,7 +185,17 @@ figcaption{
   justify-content: space-evenly;
 }
 
-
+/*css section formations*/
+#formations{
+  height: 400px;
+  background-color: #1C6868;
+}
+#formations h1{
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  padding: 20px 0px;
+}
 
 /*
  * Remove text-shadow in selection highlight:
