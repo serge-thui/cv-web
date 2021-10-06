@@ -33,8 +33,7 @@ header{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
-   
+  height: 100px;   
 }
 nav{
   width: 60%;
@@ -47,6 +46,9 @@ ul{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+figcaption{
+  color: #fff;
 }
 /* le top du cv */
 #cvtop{
@@ -155,20 +157,31 @@ ul{
 }
 /* CSS de la section mes réalisations*/
 #realisations{
-  height: 1000px;
+  height: 600px;
   background-color: #131F22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 #realisations h1{
   width: 100%;
   color: #fff;
   font-size: 2.5em;
   text-align: center;
-  padding: 20px 0px;
+ 
 }
 #realisations img{
   max-width: 400px;
   max-height: 400px;
 }
+#realisations ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 
 
 /*
