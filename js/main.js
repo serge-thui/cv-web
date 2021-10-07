@@ -1,6 +1,6 @@
 /*js du slider*/
-const section=document.querySelector('.slider');
-const items=section.querySelectorAll('img');
+const section=document.querySelector('.container');
+const items=section.querySelectorAll('article');
 const nbSlide=items.length;
 const suivant=document.querySelector('button.btn-nav-right');
 const precedent=document.querySelector('button.btn-nav-left');

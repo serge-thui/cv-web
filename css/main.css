@@ -284,7 +284,6 @@ figcaption{
 }
 .container ul{
   height: 100%;
-  
   flex-direction: column;
   align-content: space-around;
   font-size: 0.8em;
@@ -299,7 +298,10 @@ figcaption{
   font-size: 1.2em;
   
 }
-.active{
+.container article{
+  display: none;
+}
+article.active{
   display: block;
   animation: fade 0.8s;
   max-width: 60%;
