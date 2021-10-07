@@ -23,6 +23,9 @@ html {
  a:hover{
    color: #ccc;
  }
+ button{
+   border: none;
+ }
  figure, ul, h1, button{
    margin: 0;
    padding: 0;
@@ -304,7 +307,7 @@ figcaption{
 article.active{
   display: block;
   animation: fade 0.8s;
-  max-width: 60%;
+  max-width: 50%;
 }
 @keyframes fade{
   from {
@@ -317,9 +320,7 @@ article.active{
 .btn-nav-left img,.btn-nav-right img{
   max-height: 75px;
   max-width: 75px;
-  cursor: pointer;
-  background-color: #1C6868;
-  
+  cursor: pointer; 
 }
 
 
