@@ -259,12 +259,8 @@ figcaption{
   text-align: center;
   padding: 20px 0px 0px 0px;
 }
-.xpro{
-  display: flex;
-  flex-direction: column;
-  font-size: 0.5em;
-}
-.xpro li{
+
+.active li{
   list-style: square;
 }
 .slider h2{
@@ -288,23 +284,25 @@ figcaption{
 }
 .container ul{
   height: 100%;
+  
+  flex-direction: column;
+  align-content: space-around;
+  font-size: 0.8em;
+
 }
 .slider{
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-content: space-around;
-  max-width: 70%;
+  justify-content: center;
+  font-size: 1.2em;
   
 }
-
-.slider img{
-  max-width: 100%;
-  display: none;
-}
-img.active{
+.active{
   display: block;
   animation: fade 0.8s;
+  max-width: 60%;
 }
 @keyframes fade{
   from {
