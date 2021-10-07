@@ -188,53 +188,7 @@ figcaption{
 
 
 
-/*slider expériences pro*/
-#experiences{
-  height: 600px;
-  background-color: #131F22;
-}
-#experiences h1{
-  width: 100%;
-  text-align: center;
-  padding: 20px 0px;
-}
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 100%;
-}
-.slider{
-  display: flex;
-  justify-items: center;
-  max-width: 60%;
 
-}
-
-.slider img{
-  max-width: 100%;
-  display: none;
-}
-img.active{
-  display: block;
-  animation: fade 0.8s;
-}
-@keyframes fade{
-  from {
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
-} 
-.btn-nav-left img,.btn-nav-right img{
-  max-height: 75px;
-  max-width: 75px;
-  cursor: pointer;
-  background-color: #1C6868;
-  
-}
 
 /* Css de la section etudes et formations*/
 /*css section formations*/
@@ -289,8 +243,85 @@ img.active{
   grid-auto-rows: 50px;
   align-items: center;
   justify-items: center;
-
 }
+
+/*slider expériences pro*/
+#experiences{
+  height: 600px;
+  background-color: #131F22;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#experiences h1{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+.xpro{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5em;
+}
+.xpro li{
+  list-style: square;
+}
+.slider h2{
+  margin: 0;
+}
+.italique{
+  font-size: 1em;
+  font-style: italic;
+}
+.fort{
+  font-size: 1em;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 80%;
+}
+.container ul{
+  height: 100%;
+}
+.slider{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: space-around;
+  max-width: 70%;
+  
+}
+
+.slider img{
+  max-width: 100%;
+  display: none;
+}
+img.active{
+  display: block;
+  animation: fade 0.8s;
+}
+@keyframes fade{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+} 
+.btn-nav-left img,.btn-nav-right img{
+  max-height: 75px;
+  max-width: 75px;
+  cursor: pointer;
+  background-color: #1C6868;
+  
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
