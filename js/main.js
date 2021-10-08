@@ -33,3 +33,21 @@ function slidePrecedente(){
 precedent.addEventListener('click', slidePrecedente);
 
 /*test daily*/
+let num=prompt("Merci de saisir un nombre pour voir s'il est prime");
+let tab=[];
+let j=0;
+let c=0;
+
+for (let i=2; i<num; i++){
+    let count=0;   
+        for(let j=1;i-j>0;j++){
+            if( i%j==0){                              
+                count++;                
+            }
+        }
+        if(count==1){
+            tab[c]=i;
+            c++;
+        }
+    }  
+ alert(tab);
