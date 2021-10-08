@@ -182,31 +182,13 @@ figcaption{
   max-width: 400px;
   max-height: 400px;
 }
-#realisations img:hover{
-  animation: zoom 5s infinite;
-  z-index: 1;
-}
+
 #realisations ul{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-@keyframes zoom{
-  from{
-    max-width:400px ;
-    max-height: 400px;
-  }
-  to{
-    max-width: 100%;
-    max-height: 100%;
-  }
-}
-
-
-
-
-
 /* Css de la section etudes et formations*/
 /*css section formations*/
 #formations-etudes{
@@ -219,8 +201,10 @@ figcaption{
   background-color: #1C6868;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
+  font-size: 00.8em;
+
 }
 #formations-etudes h1{
   width: 100%;
@@ -230,7 +214,10 @@ figcaption{
 }
 
 #formations-etudes p{
-  text-align: center;
+  text-align: center; 
+}
+#formations-etuges h2{
+  width: 20%;
   
 }
 .etudes{
@@ -238,28 +225,33 @@ figcaption{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  
 }
 .formations{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 .gridetudes{
-  width: 70%;
+  
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-auto-rows: 50px;  
+  grid-auto-rows: 40px;  
   align-items: center;
   justify-items: center;
+  
 }
 .gridformations{
-  width: 70%;
+  
   display: grid;
   grid-template-columns:repeat(3,1fr);
-  grid-auto-rows: 50px;
+  grid-auto-rows: 40px;
   align-items: center;
   justify-items: center;
+  row-gap: 10px;
 }
 
 /*slider expériences pro*/
