@@ -30,6 +30,10 @@ html {
    margin: 0;
    padding: 0;
  }
+ section{
+   padding-top: 100px;
+   padding-bottom: 100px;
+ }
 
 /* CSS du header */
 header{
@@ -289,6 +293,7 @@ figcaption{
 
 .active li{
   list-style: square;
+  text-align: justify;
 }
 .slider h2{
   margin: 0;
@@ -313,10 +318,8 @@ figcaption{
 .container ul{
   height: 100%;
   flex-direction: column;
-  align-content: space-around;
+  align-items: stretch;
   font-size: 0.8em;
-  
-
 }
 .slider{
   display: flex;
@@ -336,6 +339,7 @@ article.active{
   animation: fade 0.8s;
   min-width: 40%;
   max-width: 40%;
+  text-align: center;
 }
 
 @keyframes fade{
@@ -392,6 +396,8 @@ article.active{
   border-radius: 8px;
   box-shadow: 20px 20px rgba(254, 229, 181, 0.05);
 }
+
+/*css de la popup*/
 
 
 /*

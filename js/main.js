@@ -31,6 +31,8 @@ function slidePrecedente(){
     items[count].classList.add('active');
 }
 precedent.addEventListener('click', slidePrecedente);
+/*js popup*/
+
 
 /*test daily*/
 let num=prompt("Merci de saisir un nombre pour voir s'il est prime");
