@@ -206,7 +206,7 @@ figcaption{
 /* Css de la section etudes et formations*/
 /*css section formations*/
 #formations-etudes{
-  background-image: url(/img/papyrus.png);
+  background-image: url(/img/old-dirty-papyrus.jpg);
   background-repeat: no-repeat;
   padding-bottom: 40px;
   background-size: 100% 100%;
@@ -225,6 +225,7 @@ figcaption{
   text-align: center;
   font-size: 2.5em;
   padding: 20px 0px 0px 0px;
+  color: #222;
 }
 
 #formations-etudes p{
@@ -232,7 +233,7 @@ figcaption{
 }
 #formations-etuges h2{
   width: 20%;
-  
+  color: #222;
 }
 .etudes{
   display: flex;
@@ -252,20 +253,27 @@ figcaption{
 .gridetudes{
   
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(4,1fr);
   grid-auto-rows: 40px;  
   align-items: center;
   justify-items: center;
-  
+  column-gap: 20px;
+  row-gap: 10px;
 }
-.gridformations{
-  
+
+.item:nth-of-type(1n), {
+  grid-row: span 3;
+  justify-self: start;
+}
+
+.gridformations{ 
   display: grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(4,1fr);
   grid-auto-rows: 40px;
   align-items: center;
   justify-items: center;
   row-gap: 10px;
+  column-gap: 20px;
 }
 
 /*slider expériences pro*/
