@@ -34,6 +34,7 @@ html {
    padding-top: 100px;
    padding-bottom: 100px;
  }
+ 
 
 /* CSS du header */
 header{
@@ -228,28 +229,14 @@ figcaption{
   padding: 20px 0px;
   color: #222;
 }
-
-#formations-etudes p{
-  text-align: center; 
-}
-
 .etudes{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  
+  width: 100%; 
 }
-.formations{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.gridetudes{
-  
+.grid{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(3,50px);
@@ -258,24 +245,13 @@ figcaption{
   justify-items: center;
   column-gap: 20px;
   row-gap: 10px;
+  border: 1px solid;
 }
 .one{
   grid-row: span 3;
   justify-self: start;
   font-size: 2em;
   font-weight: bold;
-
-}
-
-
-.gridformations{ 
-  display: grid;
-  grid-template-columns:repeat(4,1fr);
-  grid-auto-rows: 40px;
-  align-items: center;
-  justify-items: center;
-  row-gap: 10px;
-  column-gap: 20px;
 }
 
 /*slider expériences pro*/
