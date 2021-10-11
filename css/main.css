@@ -188,7 +188,7 @@ figcaption{
   color: #fff;
   font-size: 2.5em;
   text-align: center;
- 
+  
 }
 #realisations img{
   max-width: 400px;
@@ -218,27 +218,25 @@ figcaption{
   align-items: flex-start;
   justify-content: space-evenly;
   font-size: 00.8em;
+  padding-left: 20px;
 }
 
 #formations-etudes h1{
   width: 100%;
   text-align: center;
   font-size: 2.5em;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px;
   color: #222;
 }
 
 #formations-etudes p{
   text-align: center; 
 }
-#formations-etuges h2{
-  width: 20%;
-  color: #222;
-}
+
 .etudes{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   
@@ -246,7 +244,7 @@ figcaption{
 .formations{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
@@ -254,17 +252,21 @@ figcaption{
   
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,50px);
   grid-auto-rows: 40px;  
   align-items: center;
   justify-items: center;
   column-gap: 20px;
   row-gap: 10px;
 }
-
-.item:nth-of-type(1n), {
+.one{
   grid-row: span 3;
   justify-self: start;
+  font-size: 2em;
+  font-weight: bold;
+
 }
+
 
 .gridformations{ 
   display: grid;
