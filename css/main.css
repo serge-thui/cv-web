@@ -47,12 +47,14 @@ header{
   align-items: center;
   height: 100px;   
   background-color: #fff;
-  top: 0px;
-  
-  
+  top: 0px; 
 }
 nav{
   width: 60%;
+}
+.monlogo img{
+  width: 300px;
+  padding-left: 20px;
 }
 h1{
   color: #fff;
