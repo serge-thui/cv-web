@@ -301,15 +301,14 @@ figcaption{
   align-items: stretch;
   font-size: 0.8em;
 }
-.slider{
+/*.slider{
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-content: space-around;
   justify-content: center;
-  font-size: 1.2em;
-  
-}
+  font-size: 1.2em;  
+}*/
 .container article{
   display: none;
   position: relative;
