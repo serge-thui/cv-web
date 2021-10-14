@@ -31,3 +31,5 @@ function slidePrecedente(){
     items[count].classList.add('active');
 }
 precedent.addEventListener('click', slidePrecedente);
+
+
